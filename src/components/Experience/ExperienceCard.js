@@ -9,8 +9,6 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import expImgWhite from '../../assets/svg/experience/expImgWhite.svg'
-import expImgBlack from '../../assets/svg/experience/expImgBlack.svg'
 
 import './Experience.css'
 
@@ -56,7 +54,7 @@ function ExperienceCard({ id, company, jobtitle, jobrole, content, logo }) {
                     aria-describedby="alert-dialog-description"
                 >
                     <DialogTitle id="alert-dialog-title" >
-                        <div className='dialog'>{<img src={logo} width={70} height={70}/>}</div><br/><div>{`${jobtitle} at ${company}`}</div>
+                        <div className='dialog'>{<img src={logo} width={70} height={70} alt="logo"/>}</div><br/><div>{`${jobtitle} at ${company}`}</div>
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText id="alert-dialog-description">

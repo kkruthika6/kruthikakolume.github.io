@@ -3,12 +3,10 @@ import React, { useContext } from 'react';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 import './Experience.css';
-import exp from '../../assets/png/exp.jpg'
 import { experienceData } from '../../data/experienceData'
 import ExperienceCard from './ExperienceCard';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { IoCaretDownCircleOutline } from 'react-icons/io5';
 import expImgWhite from '../../assets/svg/experience/expImgWhite.svg'
 
 function Experience() {

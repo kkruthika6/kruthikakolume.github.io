@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
-import neuedu from '../../assets/png/neuedu.png'
 import './Education.css'
 import EducationCard from './EducationCard';
 
