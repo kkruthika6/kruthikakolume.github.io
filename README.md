@@ -1,3 +1,0 @@
-# kruthikakolume.github.io
-
-Portfolio
